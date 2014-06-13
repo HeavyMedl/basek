@@ -40,15 +40,19 @@ basek.base2to16(1111) // "f"
 basek.base16to2("f") // "1111"
 ```
 
-##### Generics - ***Basek.prototype.toBase(n[, base])*** and ***Basek.prototype.fromBase(n[, base])***
+##### Generics
+- **Basek.prototype.toBase(n[, base])**
+- **Basek.prototype.fromBase(n[, base])**
 
-- Convert to/from decimal using these generics. If you don't provide a base parameter, Basek uses the length of your alphabet to determine the base.
+Convert to/from decimal using these generics. If you don't provide a base parameter, Basek uses the length of your alphabet to determine the base.
 
 ```javascript
 basek.toBase(61).get() // "Z" 
 basek.toBase(61,2).get() // "111110"
-basek.fromBase("Z").get() // "61
+basek.fromBase("Z").get() // "61"
 basek.fromBase("ff",16).get() // "255"
 ```
 
+##### Alphabetic Representation
+You can literally use any combination of multi-character symbols to extend Basek's alphabetic representation by using
 
