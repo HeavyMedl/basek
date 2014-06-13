@@ -2,7 +2,7 @@
   "name": "basek",
   "description": "Convert between any base with any alphabetic representation",
   "author": "Kurt Medley <kurtdmedley@gmail.com> (http://github.com/kurtlocker/basek)",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "main": "basek.js",
   "repository": {
 	  "type": "git",

@@ -1,0 +1,129 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'publish', '.' ]
+2 info using npm@1.3.21
+3 info using node@v0.10.24
+4 verbose publish [ '.' ]
+5 verbose cache add [ '.', null ]
+6 verbose cache add name=undefined spec="." args=[".",null]
+7 verbose parsed url { protocol: null,
+7 verbose parsed url   slashes: null,
+7 verbose parsed url   auth: null,
+7 verbose parsed url   host: null,
+7 verbose parsed url   port: null,
+7 verbose parsed url   hostname: null,
+7 verbose parsed url   hash: null,
+7 verbose parsed url   search: null,
+7 verbose parsed url   query: null,
+7 verbose parsed url   pathname: '.',
+7 verbose parsed url   path: '.',
+7 verbose parsed url   href: '.' }
+8 silly lockFile 3a52ce78- .
+9 verbose lock . /Users/kurtmedley/.npm/3a52ce78-.lock
+10 verbose tar pack [ '/var/folders/w3/4c41byfx36b380n07_rm59tc0000gn/T/npm-33855-d9a_j8d5/1402647407433-0.2048872639425099/tmp.tgz',
+10 verbose tar pack   '.' ]
+11 verbose tarball /var/folders/w3/4c41byfx36b380n07_rm59tc0000gn/T/npm-33855-d9a_j8d5/1402647407433-0.2048872639425099/tmp.tgz
+12 verbose folder .
+13 info prepublish basek@0.1.0
+14 silly lockFile 1f1177db-tar tar://.
+15 verbose lock tar://. /Users/kurtmedley/.npm/1f1177db-tar.lock
+16 silly lockFile abdf79c6-07433-0-2048872639425099-tmp-tgz tar:///var/folders/w3/4c41byfx36b380n07_rm59tc0000gn/T/npm-33855-d9a_j8d5/1402647407433-0.2048872639425099/tmp.tgz
+17 verbose lock tar:///var/folders/w3/4c41byfx36b380n07_rm59tc0000gn/T/npm-33855-d9a_j8d5/1402647407433-0.2048872639425099/tmp.tgz /Users/kurtmedley/.npm/abdf79c6-07433-0-2048872639425099-tmp-tgz.lock
+18 silly lockFile 1f1177db-tar tar://.
+19 silly lockFile 1f1177db-tar tar://.
+20 silly lockFile abdf79c6-07433-0-2048872639425099-tmp-tgz tar:///var/folders/w3/4c41byfx36b380n07_rm59tc0000gn/T/npm-33855-d9a_j8d5/1402647407433-0.2048872639425099/tmp.tgz
+21 silly lockFile abdf79c6-07433-0-2048872639425099-tmp-tgz tar:///var/folders/w3/4c41byfx36b380n07_rm59tc0000gn/T/npm-33855-d9a_j8d5/1402647407433-0.2048872639425099/tmp.tgz
+22 verbose tar unpack /var/folders/w3/4c41byfx36b380n07_rm59tc0000gn/T/npm-33855-d9a_j8d5/1402647407433-0.2048872639425099/tmp.tgz
+23 silly lockFile a23e624e-07433-0-2048872639425099-package tar:///var/folders/w3/4c41byfx36b380n07_rm59tc0000gn/T/npm-33855-d9a_j8d5/1402647407433-0.2048872639425099/package
+24 verbose lock tar:///var/folders/w3/4c41byfx36b380n07_rm59tc0000gn/T/npm-33855-d9a_j8d5/1402647407433-0.2048872639425099/package /Users/kurtmedley/.npm/a23e624e-07433-0-2048872639425099-package.lock
+25 silly lockFile abdf79c6-07433-0-2048872639425099-tmp-tgz tar:///var/folders/w3/4c41byfx36b380n07_rm59tc0000gn/T/npm-33855-d9a_j8d5/1402647407433-0.2048872639425099/tmp.tgz
+26 verbose lock tar:///var/folders/w3/4c41byfx36b380n07_rm59tc0000gn/T/npm-33855-d9a_j8d5/1402647407433-0.2048872639425099/tmp.tgz /Users/kurtmedley/.npm/abdf79c6-07433-0-2048872639425099-tmp-tgz.lock
+27 silly gunzTarPerm modes [ '755', '644' ]
+28 silly gunzTarPerm extractEntry package.json
+29 silly gunzTarPerm extractEntry README.md
+30 silly gunzTarPerm extractEntry basek.js
+31 silly gunzTarPerm extractEntry basek.min.js
+32 silly lockFile a23e624e-07433-0-2048872639425099-package tar:///var/folders/w3/4c41byfx36b380n07_rm59tc0000gn/T/npm-33855-d9a_j8d5/1402647407433-0.2048872639425099/package
+33 silly lockFile a23e624e-07433-0-2048872639425099-package tar:///var/folders/w3/4c41byfx36b380n07_rm59tc0000gn/T/npm-33855-d9a_j8d5/1402647407433-0.2048872639425099/package
+34 silly lockFile abdf79c6-07433-0-2048872639425099-tmp-tgz tar:///var/folders/w3/4c41byfx36b380n07_rm59tc0000gn/T/npm-33855-d9a_j8d5/1402647407433-0.2048872639425099/tmp.tgz
+35 silly lockFile abdf79c6-07433-0-2048872639425099-tmp-tgz tar:///var/folders/w3/4c41byfx36b380n07_rm59tc0000gn/T/npm-33855-d9a_j8d5/1402647407433-0.2048872639425099/tmp.tgz
+36 verbose tar pack [ '/Users/kurtmedley/.npm/basek/0.1.0/package.tgz',
+36 verbose tar pack   '/var/folders/w3/4c41byfx36b380n07_rm59tc0000gn/T/npm-33855-d9a_j8d5/1402647407433-0.2048872639425099/package' ]
+37 verbose tarball /Users/kurtmedley/.npm/basek/0.1.0/package.tgz
+38 verbose folder /var/folders/w3/4c41byfx36b380n07_rm59tc0000gn/T/npm-33855-d9a_j8d5/1402647407433-0.2048872639425099/package
+39 silly lockFile a23e624e-07433-0-2048872639425099-package tar:///var/folders/w3/4c41byfx36b380n07_rm59tc0000gn/T/npm-33855-d9a_j8d5/1402647407433-0.2048872639425099/package
+40 verbose lock tar:///var/folders/w3/4c41byfx36b380n07_rm59tc0000gn/T/npm-33855-d9a_j8d5/1402647407433-0.2048872639425099/package /Users/kurtmedley/.npm/a23e624e-07433-0-2048872639425099-package.lock
+41 silly lockFile 38a95bad-dley-npm-basek-0-1-0-package-tgz tar:///Users/kurtmedley/.npm/basek/0.1.0/package.tgz
+42 verbose lock tar:///Users/kurtmedley/.npm/basek/0.1.0/package.tgz /Users/kurtmedley/.npm/38a95bad-dley-npm-basek-0-1-0-package-tgz.lock
+43 silly lockFile a23e624e-07433-0-2048872639425099-package tar:///var/folders/w3/4c41byfx36b380n07_rm59tc0000gn/T/npm-33855-d9a_j8d5/1402647407433-0.2048872639425099/package
+44 silly lockFile a23e624e-07433-0-2048872639425099-package tar:///var/folders/w3/4c41byfx36b380n07_rm59tc0000gn/T/npm-33855-d9a_j8d5/1402647407433-0.2048872639425099/package
+45 silly lockFile 38a95bad-dley-npm-basek-0-1-0-package-tgz tar:///Users/kurtmedley/.npm/basek/0.1.0/package.tgz
+46 silly lockFile 38a95bad-dley-npm-basek-0-1-0-package-tgz tar:///Users/kurtmedley/.npm/basek/0.1.0/package.tgz
+47 silly lockFile 9fe14cb9-rtmedley-npm-basek-0-1-0-package /Users/kurtmedley/.npm/basek/0.1.0/package
+48 verbose lock /Users/kurtmedley/.npm/basek/0.1.0/package /Users/kurtmedley/.npm/9fe14cb9-rtmedley-npm-basek-0-1-0-package.lock
+49 silly lockFile 9fe14cb9-rtmedley-npm-basek-0-1-0-package /Users/kurtmedley/.npm/basek/0.1.0/package
+50 silly lockFile 9fe14cb9-rtmedley-npm-basek-0-1-0-package /Users/kurtmedley/.npm/basek/0.1.0/package
+51 verbose tar unpack /Users/kurtmedley/.npm/basek/0.1.0/package.tgz
+52 silly lockFile fd2cba3a-rtmedley-npm-basek-0-1-0-package tar:///Users/kurtmedley/.npm/basek/0.1.0/package
+53 verbose lock tar:///Users/kurtmedley/.npm/basek/0.1.0/package /Users/kurtmedley/.npm/fd2cba3a-rtmedley-npm-basek-0-1-0-package.lock
+54 silly lockFile 38a95bad-dley-npm-basek-0-1-0-package-tgz tar:///Users/kurtmedley/.npm/basek/0.1.0/package.tgz
+55 verbose lock tar:///Users/kurtmedley/.npm/basek/0.1.0/package.tgz /Users/kurtmedley/.npm/38a95bad-dley-npm-basek-0-1-0-package-tgz.lock
+56 silly gunzTarPerm modes [ '755', '644' ]
+57 silly gunzTarPerm extractEntry package.json
+58 silly gunzTarPerm extractEntry README.md
+59 silly gunzTarPerm extractEntry basek.js
+60 silly gunzTarPerm extractEntry basek.min.js
+61 silly lockFile fd2cba3a-rtmedley-npm-basek-0-1-0-package tar:///Users/kurtmedley/.npm/basek/0.1.0/package
+62 silly lockFile fd2cba3a-rtmedley-npm-basek-0-1-0-package tar:///Users/kurtmedley/.npm/basek/0.1.0/package
+63 silly lockFile 38a95bad-dley-npm-basek-0-1-0-package-tgz tar:///Users/kurtmedley/.npm/basek/0.1.0/package.tgz
+64 silly lockFile 38a95bad-dley-npm-basek-0-1-0-package-tgz tar:///Users/kurtmedley/.npm/basek/0.1.0/package.tgz
+65 verbose chmod /Users/kurtmedley/.npm/basek/0.1.0/package.tgz 644
+66 verbose chown /Users/kurtmedley/.npm/basek/0.1.0/package.tgz [ 501, 20 ]
+67 silly lockFile 3a52ce78- .
+68 silly lockFile 3a52ce78- .
+69 silly publish { name: 'basek',
+69 silly publish   description: 'Convert between any base with any alphabetic representation',
+69 silly publish   author:
+69 silly publish    { name: 'Kurt Medley',
+69 silly publish      email: 'kurtdmedley@gmail.com',
+69 silly publish      url: 'http://github.com/kurtlocker/basek' },
+69 silly publish   version: '0.1.0',
+69 silly publish   main: 'basek.js',
+69 silly publish   repository: { type: 'git', url: 'https://github.com/kurtlocker/basek.git' },
+69 silly publish   readme: 'ERROR: No README data found!',
+69 silly publish   readmeFilename: 'README.md',
+69 silly publish   bugs: { url: 'https://github.com/kurtlocker/basek/issues' },
+69 silly publish   homepage: 'https://github.com/kurtlocker/basek',
+69 silly publish   _id: 'basek@0.1.0',
+69 silly publish   dist: { shasum: 'cde4e46adcee7fa62ec00117c9b1111e92564124' },
+69 silly publish   _from: '.' }
+70 verbose url raw basek
+71 verbose url resolving [ 'https://registry.npmjs.org/', './basek' ]
+72 verbose url resolved https://registry.npmjs.org/basek
+73 info trying registry request attempt 1 at 01:16:47
+74 http PUT https://registry.npmjs.org/basek
+75 http 403 https://registry.npmjs.org/basek
+76 info trying registry request attempt 1 at 01:16:48
+77 http PUT https://registry.npmjs.org/basek
+78 http 403 https://registry.npmjs.org/basek
+79 error publish Failed PUT 403
+80 error Error: forbidden cannot modify pre-existing version: 0.1.0
+80 error old={"name":"basek","description":"Convert between any base with any alphabetic representation","author":{"name":"Kurt Medley","email":"kurtdmedley@gmail.com","url":"http://github.com/kurtquakee/basek"},"version":"0.1.0","main":"basek.js","_id":"basek@0.1.0","dist":{"shasum":"0302ee93604eeeb89361b4fe2ddf73e8d5e9f3b2","tarball":"http://registry.npmjs.org/basek/-/basek-0.1.0.tgz"},"_from":".","_npmVersion":"1.3.21","_npmUser":{"name":"kurtlocker","email":"kurtdmedley@gmail.com"},"maintainers":[{"name":"kurtlocker","email":"kurtdmedley@gmail.com"}]}
+80 error new={"name":"basek","description":"Convert between any base with any alphabetic representation","author":{"name":"Kurt Medley","email":"kurtdmedley@gmail.com","url":"http://github.com/kurtlocker/basek"},"version":"0.1.0","main":"basek.js","repository":{"type":"git","url":"https://github.com/kurtlocker/basek.git"},"readme":"ERROR: No README data found!","readmeFilename":"README.md","bugs":{"url":"https://github.com/kurtlocker/basek/issues"},"homepage":"https://github.com/kurtlocker/basek","_id":"basek@0.1.0","dist":{"shasum":"cde4e46adcee7fa62ec00117c9b1111e92564124","tarball":"http://registry.npmjs.org/basek/-/basek-0.1.0.tgz"},"_from":".","_npmVersion":"1.3.21","_npmUser":{"name":"kurtlocker","email":"kurtdmedley@gmail.com"},"maintainers":[{"name":"kurtlocker","email":"kurtdmedley@gmail.com"}]}: basek
+80 error     at RegClient.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:275:14)
+80 error     at Request.self.callback (/usr/local/lib/node_modules/npm/node_modules/request/request.js:123:22)
+80 error     at Request.EventEmitter.emit (events.js:98:17)
+80 error     at Request.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:893:14)
+80 error     at Request.EventEmitter.emit (events.js:117:20)
+80 error     at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:844:12)
+80 error     at IncomingMessage.EventEmitter.emit (events.js:117:20)
+80 error     at _stream_readable.js:920:16
+80 error     at process._tickCallback (node.js:415:13)
+81 error If you need help, you may report this *entire* log,
+81 error including the npm and node versions, at:
+81 error     <http://github.com/isaacs/npm/issues>
+82 error System Darwin 11.4.2
+83 error command "node" "/usr/local/bin/npm" "publish" "."
+84 error cwd /Users/kurtmedley/Desktop/basek
+85 error node -v v0.10.24
+86 error npm -v 1.3.21
+87 verbose exit [ 1, true ]
