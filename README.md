@@ -67,12 +67,20 @@ basek.alpha()
 // '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ' - default base62
 basek.alphaExtend('%^') 
 // '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ%^' - base64
-basek.alphaDefault() 
+basek.alphaSet() 
 // '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ' - back to default
 basek.alphaSet('abcdefghijklmnopqrstuvwzyz')
 // 'abcdefghijklmnopqrstuvwzyz' - alphabet set
-basek.toBase(15,2) // 'bbbb'
+basek.toBase(15,2).get() // 'bbbb'
 ```
 
-Now using multi-character alphanumeric symbols extending 
+Now using multi-character alphanumeric symbols to extend Basek's base range to 100
+
+```javascript
+basek.alphaSet() // '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ' - back to default
+for (var i = 0; i < 38; i++) {
+  basek.alphaExtend(['a'+i]);
+} // alphabet set to Array[100] (['0','1',...,'a100'])
+basek.toBase(99).get() // 'a37' - your multi-character symbol representing decimal 99 in base100
+```
 
