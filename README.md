@@ -1,5 +1,5 @@
 # basek.js
-Use an array to exceed the limits of single character alphanumerics to convert between bases exceeding 62.
+Use an array of multi-character alphanumeric symbols to convert between bases exceeding 62.
 
 ### Features
 - Convert between a potentially infinite number of bases using an array representation of an alphabet.
@@ -54,5 +54,23 @@ basek.fromBase("ff",16).get() // "255"
 ```
 
 ##### Alphabetic Representation
-You can literally use any combination of multi-character symbols to extend Basek's alphabetic representation by using
+- **Basek.prototype.alpha()** **->**
+- **Basek.prototype.alphaDefault()**
+- **Basek.prototype.alphaSet('abc' || ['a','b','c'])**
+- **Basek.prototype.alphaExtend('abc' || ['a','b','c'])**
+ 
+You can literally use any combination of multi-character symbols to extend Basek's alphabetic representation and thus extending your base limit.  First here's some basic usage.
+
+```javascript
+// Using only single character symbols
+basek.alpha() 
+// '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ' - default base62
+basek.alphaExtend('%^') 
+// '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ%^' - base64
+basek.alphaDefault() 
+// '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ' - back to default
+basek.alphaSet('abcdefghijklmnopqrstuvwzyz')
+// 'abcdefghijklmnopqrstuvwzyz' - alphabet set
+basek.toBase(15,2) // 'bbbb'
+```
 
