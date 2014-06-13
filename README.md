@@ -54,7 +54,7 @@ basek.fromBase("ff",16).get() // "255"
 ```
 
 ##### Alphabetic Representation
-- **Basek.prototype.alpha()** **->**
+- **Basek.prototype.alpha()**
 - **Basek.prototype.alphaDefault()**
 - **Basek.prototype.alphaSet('abc' || ['a','b','c'])**
 - **Basek.prototype.alphaExtend('abc' || ['a','b','c'])**
@@ -73,4 +73,6 @@ basek.alphaSet('abcdefghijklmnopqrstuvwzyz')
 // 'abcdefghijklmnopqrstuvwzyz' - alphabet set
 basek.toBase(15,2) // 'bbbb'
 ```
+
+Now using multi-character alphanumeric symbols extending 
 
