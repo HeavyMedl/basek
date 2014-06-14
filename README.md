@@ -83,4 +83,19 @@ for (var i = 0; i < 38; i++) {
 } // alphabet set to Array[100] (['0','1',...,'a100'])
 basek.toBase(99).get() // 'a37' - your multi-character symbol representing decimal 99 in base100
 ```
+##### Utility (more to come)
+- **Basek.prototype.pad(bits)**
+- **Basek.prototype.unpad()**
 
+Use *pad* to prepend n bits (bit = character at the 0th index of your alphabet) to your string and unpad to slice the representation back to its original glory.
+
+```javascript
+basek.alphaSet()
+basek.toBase(15,2) // '1111'
+basek.pad(10) // '0000001111'
+basek.unpad() // '1111'
+``` 
+Chain several functions together
+```javascript
+basek.alphaSet('ab').toBase(10).pad(10).get() // 'aaaaaababa'
+```
