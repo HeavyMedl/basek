@@ -80,7 +80,7 @@ Now using multi-character alphanumeric symbols to extend Basek's base range to 1
 basek.alphaSet() // '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ' - back to default
 for (var i = 0; i < 38; i++) {
   basek.alphaExtend(['a'+i]);
-} // alphabet set to Array[100] (['0','1',...,'a100'])
+} // alphabet set to Array[100] (['0','1',...,'a37'])
 basek.toBase(99).get() // 'a37' - your multi-character symbol representing decimal 99 in base100
 ```
 ##### Utility (more to come)
@@ -99,3 +99,6 @@ Chain several functions together
 ```javascript
 basek.alphaSet('ab').toBase(10).pad(10).get() // 'aaaaaababa'
 ```
+
+##### License
+MIT
