@@ -2,12 +2,18 @@
   "name": "basek",
   "description": "Use an array of multi-character alphanumeric symbols to convert bases exceeding 62",
   "author": "Kurt Medley <kurtdmedley@gmail.com> (http://github.com/kurtlocker/basek)",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "main": "basek.js",
   "keywords": [
 	"base",
 	"alphanumeric",
-	"convert"
+	"convert",
+	"conversion",
+	"converter",
+	"hexadecimal",
+	"decimal",
+	"binary",
+	"octal"
   ],
   "repository": {
 	  "type": "git",
